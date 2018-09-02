@@ -9,6 +9,12 @@
     var reset=document.getElementById('reset');
 
     btn.addEventListener('click',function(){
+        var payLess;
+        var short;
+        var payMore;
+        var payOver;
+
+        payLess=Math.floor(price.value/3/100)*100;
 
     });
 
